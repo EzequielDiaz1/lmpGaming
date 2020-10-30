@@ -20,7 +20,7 @@ const Home = () => {
             <div style={{display:'flex', justifyContent: 'center',marginTop:'200px'}}>
                 <a href="https://www.instagram.com/lmpgaming/"><img src="https://i.ibb.co/TBbnyfb/Logo-LMP-Original-PNG.png" style={imgLogo} alt=""/></a>
             </div>
-            <div style={{display:'flex', justifyContent: 'center', alignItems:'flex-endnpm'}}>
+            <div style={{display:'flex', justifyContent: 'center', alignItems:'flex-end'}}>
                 <img src="https://i.ibb.co/7VzPD7Z/Go-LMP-PNG.png" style={imgGoLMP}></img>
             </div>
         </div>
