@@ -1,7 +1,7 @@
 import React from 'react';
 
 const imgLogo = {  
-    width: '474px',
+    width: '474.600px',
     height: '510px',
     opacity: '0.9',
     mixBlendMode: 'difference '
