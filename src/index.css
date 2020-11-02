@@ -5,12 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("fondo web.jpg");
-  background-size: 100% 100%;
+  background-image: url("fondoWeb.jpg");
+  background-size: cover;
   background-repeat: repeat-y;
 
 }
 
+@font-face{
+  font-family: "MonumentRegular";
+  src: url("MonumentExtended-Regular.otf");
+}
+
+@font-face{
+  font-family: "MonumentUltraBold";
+  src: url("MonumentExtended-Ultrabold.otf");
+}
+
+img:hover{
+  transform: scale(1.01);
+}
+
+.navBarDiv:hover{
+  transform: scale(1.05);
+  
+}
+ 
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
