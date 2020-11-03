@@ -10,14 +10,6 @@ const styleDiv={
     color:'#fff'
 }
 
-const imgLogo = {  
-    width: '174.600px',
-    height: '210px',
-    opacity: '0.9',
-    marginTop:'50px',
-    mixBlendMode: 'difference '
-}
-
 const imgGoLMP = {
     width: '142px',
     height: '100px',
@@ -37,9 +29,7 @@ const About = () => {
                     Fundado en octubre de 2020, la organización actualmente cuenta con equipos de Rocket League, Counter-Strike: Global Offensive y Free Fire. Uno de ellos, el de Rocket League, ya ha logrado consagrarse campeón en uno de los torneos disputados. Los demás equipos están entrenando para llegar de la mejor forma a los torneos venideros.
                 </p>
             </div>
-            <div style={{display:'flex', justifyContent: 'center'}}>
-                <a href="https://www.instagram.com/lmpgaming/"><img src="https://i.ibb.co/TBbnyfb/Logo-LMP-Original-PNG.png" style={imgLogo} alt=""/></a>
-            </div>
+            
             <div style={{height: '200px', display:'flex', justifyContent: 'center', alignItems:'flex-end'}}>
                 <img src="https://i.ibb.co/7VzPD7Z/Go-LMP-PNG.png" style={imgGoLMP}></img>
             </div>

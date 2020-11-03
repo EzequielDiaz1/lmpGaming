@@ -6,7 +6,7 @@ const imgLogo = {
     width: '474.600px',
     height: '510px',
     opacity: '0.9',
-    mixBlendMode: 'difference '
+    mixBlendMode: 'difference ',
 }
 
 const imgGoLMP = {

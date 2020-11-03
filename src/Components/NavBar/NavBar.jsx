@@ -27,14 +27,14 @@ const NavBar = () => {
                 <div  class="navBarDiv" style={styleHead}>
                     <span style={{fontFamily: "MonumentRegular, regular", fontSize: "17px"}} onClick={() => history.push('/about')}>ABOUT</span>
                 </div>
-                <div class="navBarDiv" style={styleHead}>
-                    <span style={{fontFamily: "MonumentRegular, regular", fontSize: "17px"}}>EQUIPOS</span>
+                <div class="navBarDiv" style={styleHead}> 
+                    <span style={{fontFamily: "MonumentRegular, regular", fontSize: "17px"}} onClick={() => history.push('/teams')}>EQUIPOS</span>
                 </div>
                 <div class="navBarDiv" style={styleHead}>
-                    <span style={{fontFamily: "MonumentRegular, regular", fontSize: "17px"}}>TITULOS</span>
+                    <span style={{fontFamily: "MonumentRegular, regular", fontSize: "17px"}} onClick={() => history.push('/titles')}>TITULOS</span>
                 </div>
                 <div class="navBarDiv" style={styleHead}>
-                    <span style={{fontFamily: "MonumentRegular, regular", fontSize: "17px"}}>CONTACTO</span>
+                    <span style={{fontFamily: "MonumentRegular, regular", fontSize: "17px"}} onClick={() => history.push('/contact')}>CONTACTO</span>
                 </div>
             </div>
         </div>
