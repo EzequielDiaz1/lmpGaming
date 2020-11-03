@@ -1,6 +1,7 @@
 import React from 'react';
 
 
+
 const styleImgRoster={
     display:'flex',
     alignItems:'center',
@@ -48,7 +49,7 @@ const textoRosa = {
 
 const Teams = () => {
     return (
-        <div style={{marginTop:'50px'}}>
+        <div id="contenedor1" style={{marginTop:'50px'}}>
            
             <div style={contenedorRosters}>
                 <h1 style={{fontFamily:"MonumentUltraBold", color:'#d39ab0', mixBlendMode: 'difference '}}>EQUIPOS</h1>
