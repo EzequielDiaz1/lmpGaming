@@ -60,10 +60,10 @@ const Teams = () => {
                     </div>
                     <div style={{textAlign:'center',  fontFamily:"MonumentRegular", mixBlendMode: 'difference', color:'#fff'}}>
                         <div style={contenedorNombres}>
-                            <h5 style={textoNoRosa}>RODRIGO</h5>
-                            <h5 style={textoRosa}> RDRY </h5>
-                            <h5 style={textoNoRosa}>LAVOZ</h5>
-                        </div>
+                            <h5 style={textoNoRosa}>JEREMIAS</h5>
+                            <h5 style={textoRosa}> KEKE </h5>
+                            <h5 style={textoNoRosa}> ARRIETA</h5>
+                        </div> 
                         <div style={contenedorNombres}>
                             <h5 style={textoNoRosa}>FRANCO</h5>
                             <h5 style={textoRosa}> FRAN.- </h5>
@@ -75,9 +75,9 @@ const Teams = () => {
                             <h5 style={textoNoRosa}>AGUIRRE</h5>
                         </div>
                         <div style={{display:'flex',justifyContent:'center', alignItems:'center', flexDirection:'row',marginBottom:'-20px'}}>
-                            <h5 style={textoNoRosa}>JEREMIAS</h5>
-                            <h5 style={textoRosa}> KEKE </h5>
-                            <h5 style={textoNoRosa}>ARRIETA</h5>
+                            <h5 style={textoNoRosa}>RODRIGO</h5>
+                            <h5 style={textoRosa}> RDRY </h5>
+                            <h5 style={textoNoRosa}> LAVOZ </h5>
                         </div>
                     </div>
                     <hr></hr>

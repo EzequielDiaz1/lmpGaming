@@ -23,9 +23,6 @@ const Form = () => {
    }
   return (
     <div className="container pt-2 text-center">
-		<div className="alert alert-light" role="alert">
-		  <a href="https://tupaginaonline.net/tutorial-para-enviar-correo-con-react-js-hooks-y-emailjs">Tutorial para enviar correo con React.js (Hooks) y emailJS</a>
-		</div>
 		
 		{ showMessage ? <div className="alert alert-success col-md-5 mx-auto" role="alert">Email Send Success!!</div> : ``}
 	
