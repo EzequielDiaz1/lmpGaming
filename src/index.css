@@ -21,6 +21,14 @@ body {
   src: url("MonumentExtended-Ultrabold.otf");
 }
 
+hr{
+  height: 5px;
+  color:'white';
+  background-color: #fff;
+  width: 500px;
+  
+}
+
 @font-face{
   font-family: "Euclid";
   src: url("EuclidCircularA-Medium.ttf");
