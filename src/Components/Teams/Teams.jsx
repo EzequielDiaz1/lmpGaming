@@ -147,7 +147,7 @@ const Teams = () => {
                             <h5 style={textoRosa}> FACU </h5>
                             <h5 style={textoNoRosa}>SOLÍS</h5>
                         </div>
-                        <div style={{display:'flex',justifyContent:'center', alignItems:'center', flexDirection:'row',marginBottom:'-20px'}}>
+                        <div style={{display:'flex',justifyContent:'center', alignItems:'center', flexDirection:'row',marginBottom:'-50px'}}>
                             <h5 style={textoNoRosa}>MIRKO</h5>
                             <h5 style={textoRosa}> MIRKO </h5>
                             <h5 style={textoNoRosa}>ALFONSO</h5>
@@ -155,8 +155,10 @@ const Teams = () => {
                     </div>
                 </div>    
             </div>
-            <div style={{height: '200px', display:'flex', justifyContent: 'center', alignItems:'flex-end'}}>
-                <img src="https://i.ibb.co/7VzPD7Z/Go-LMP-PNG.png" style={imgGoLMP}></img>
+            <div style={{marginBottom:'-50px'}}>
+                <div style={{height: '200px', display:'flex', justifyContent: 'center', alignItems:'flex-end'}}>
+                    <img src="https://i.ibb.co/7VzPD7Z/Go-LMP-PNG.png" style={imgGoLMP}></img>
+                </div>
             </div>
         </div>
     );
