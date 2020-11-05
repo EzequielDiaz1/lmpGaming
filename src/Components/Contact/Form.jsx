@@ -65,12 +65,13 @@ const imgGoLMP = {
     width: '296.6',
     height: '90px',
     mixBlendMode: 'difference ',
-
+	marginRight:'25px',
+	marginLeft:'25px'
 }
 
 
 const Form = () => {
-	const frmContact = { userEmail:'', concernCategory:'', emailTitle:'', emailDetails:'' };
+	const frmContact = { userEmail:'', concernCategory:'', emailTitle:'', contenido:'' };
 	const [contact,setContact] = useState(frmContact);
 	const [showMessage, setShowMessage] = useState(false);
 	const handleChange = e => { 
@@ -112,7 +113,7 @@ const Form = () => {
 
 			   <div>
 					 <div> <b style={texto1}>Escribe tu mensaje</b><br/>
-						 <textarea style={textArea} required name="emailDetails" onChange={handleChange} className="form-control" placeholder="Tu mensaje.." value={contact.emailDetails}></textarea>
+						 <input style={textArea} required name="concernCategory" onChange={handleChange} className="form-control" placeholder="Tu mensaje.." value={contact.concernCategory}/>
 					 </div>
 			   </div>
 			   <div>
@@ -121,8 +122,13 @@ const Form = () => {
 		 </form>		
 		 <hr style={{marginTop:'50px'}}/>
 		 <h1 style={sponsors}>SPONSORS</h1>
-		 <div style={{height: '200px', display:'flex', justifyContent: 'center', alignItems:'flex-end'}}>
-			 <a href="https://www.instagram.com/wonder.hamburgueseria/"><img style={imgGoLMP} src="https://i.ibb.co/ZHnbQgK/LOGO-WONDER-BLANCO.png" alt=""/></a>
+		 <div style={{height: '200px', display:'flex',justifyContent: 'space-around' ,alignItems:'flex-end'}}>
+			<div>
+				<a href="https://www.instagram.com/wonder.hamburgueseria/"><img style={imgGoLMP} src="https://i.ibb.co/ZHnbQgK/LOGO-WONDER-BLANCO.png" alt=""/></a>
+		 	</div>
+			<div>
+			<a href="https://www.instagram.com/clean.pc20/"><img style={imgGoLMP} src="https://i.ibb.co/FJQwYhG/Recurso-6.png" alt=""/></a>
+			</div>
 		 </div>
 	 </div>
    );

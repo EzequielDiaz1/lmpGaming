@@ -103,15 +103,10 @@ const Teams = () => {
                             <h5 style={textoRosa}> STOUD </h5>
                             <h5 style={textoNoRosa}>LIMA</h5>
                         </div>
-                        <div style={contenedorNombres}>
-                            <h5 style={textoNoRosa}>ANTU</h5>
-                            <h5 style={textoRosa}> STOUD </h5>
-                            <h5 style={textoNoRosa}>LIMA</h5>
-                        </div>
                             <div style={{display:'flex',justifyContent:'center', alignItems:'center', flexDirection:'row',marginBottom:'-20px'}}>
                                 <h5 style={textoNoRosa}>DANIEL</h5>
                                 <h5 style={textoRosa}> SCOFIELD </h5>
-                                <h5 style={textoNoRosa}>UHICH</h5>
+                                <h5 style={textoNoRosa}>UHRICH</h5>
                             </div>
                     </div>
                     <hr/>
@@ -161,7 +156,7 @@ const Teams = () => {
                 </div>
             </div>
         </div>
-    );
+    );  
 };
 
 export default Teams;
