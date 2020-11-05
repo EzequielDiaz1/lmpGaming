@@ -122,7 +122,7 @@ const Form = () => {
 		 <hr style={{marginTop:'50px'}}/>
 		 <h1 style={sponsors}>SPONSORS</h1>
 		 <div style={{height: '200px', display:'flex', justifyContent: 'center', alignItems:'flex-end'}}>
-			 <img style={imgGoLMP} src="https://i.ibb.co/ZHnbQgK/LOGO-WONDER-BLANCO.png" alt=""/>
+			 <a href="https://www.instagram.com/wonder.hamburgueseria/"><img style={imgGoLMP} src="https://i.ibb.co/ZHnbQgK/LOGO-WONDER-BLANCO.png" alt=""/></a>
 		 </div>
 	 </div>
    );
