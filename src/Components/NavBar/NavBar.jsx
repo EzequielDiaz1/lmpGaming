@@ -4,7 +4,7 @@ import {useHistory} from 'react-router-dom';
 const styleHead = {
     backgroundColor: '#d9a0b6',
     padding: '2px 25px',
-    mixBlendMode: 'difference ',
+    /* mixBlendMode: 'difference ', */
     marginRight: '25px',
     display:'flex', 
     justifyContent:'center',

@@ -45,7 +45,7 @@ const input = {
 const sponsors = {
 	fontFamily:'MonumentUltraBold',
 	color:'#fff',
-	mixBlendMode: 'difference ',
+	/* mixBlendMode: 'difference ', */
 	marginBottom:'-50px'
 }
 
@@ -56,6 +56,7 @@ const textArea = {
 	minWidth:'400px',
 	height:'50px',
 	maxHeight:'150px',
+	minHeight:'50px',
 	fontFamily: "Euclid", 
 	fontSize:'12px',
 	outline: 'none'
@@ -64,7 +65,7 @@ const textArea = {
 const imgGoLMP = {
     width: '296.6',
     height: '90px',
-    mixBlendMode: 'difference ',
+    /* mixBlendMode: 'difference ', */
 	marginRight:'25px',
 	marginLeft:'25px'
 }
@@ -113,7 +114,7 @@ const Form = () => {
 
 			   <div>
 					 <div> <b style={texto1}>Escribe tu mensaje</b><br/>
-						 <input style={textArea} required name="concernCategory" onChange={handleChange} className="form-control" placeholder="Tu mensaje.." value={contact.concernCategory}/>
+						 <textarea style={textArea} required name="concernCategory" onChange={handleChange} className="form-control" placeholder="Tu mensaje.." value={contact.concernCategory}/>
 					 </div>
 			   </div>
 			   <div>

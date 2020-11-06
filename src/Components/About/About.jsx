@@ -13,7 +13,7 @@ const styleDiv={
 const imgGoLMP = {
     width: '142px',
     height: '100px',
-    mixBlendMode: 'difference ',
+    /* mixBlendMode: 'difference ', */
 
 }
 
@@ -21,7 +21,7 @@ const About = () => {
     return (
         <div style={{display:'flex', flexDirection:'column',alignItems:'center',justifyContent:'center'}}>
             <div style={styleDiv}>
-                <h1 style={{fontFamily:"MonumentUltraBold", color:'#d39ab0', mixBlendMode: 'difference '}}>ABOUT LMP</h1>
+                <h1 style={{fontFamily:"MonumentUltraBold", color:'#d39ab0'}}>ABOUT LMP</h1>
                 <p style={{fontFamily:'Euclid', textAlign:'center', fontSize:'20px'}}>
                     LMP Gaming se trata de una organización de eSports creada en Córdoba, Argentina. Que tiene como objetivo dejar el mayor esfuerzo y dedicación posible para que el equipo llegue lo más lejos posible.
                 </p>

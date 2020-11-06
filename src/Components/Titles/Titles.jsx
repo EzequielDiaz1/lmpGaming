@@ -34,7 +34,7 @@ const containerCampeonatos = {
 const imgGoLMP = {
     width: '142px',
     height: '100px',
-    mixBlendMode: 'difference ',
+    /* mixBlendMode: 'difference ', */
 
 }
 

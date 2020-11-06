@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("fondoWeb.jpg");
+  /* background-image: url("fondoWeb.jpg"); */
+  background-color: #000;
   background-size: 100%;
   background-repeat: repeat-y;
   cursor: default;

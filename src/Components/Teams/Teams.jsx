@@ -8,7 +8,7 @@ const styleImgRoster={
     justifyContent:'center',
     width:'500px',
     marginTop:'20px',
-    mixBlendMode: 'difference'
+    /* mixBlendMode: 'difference' */
 }
 
 const contenedorRosters={
@@ -21,7 +21,7 @@ const contenedorRosters={
 const imgGoLMP = {
     width: '142px',
     height: '100px',
-    mixBlendMode: 'difference ',
+   /*  mixBlendMode: 'difference ', */
 
 }
 
@@ -52,13 +52,13 @@ const Teams = () => {
         <div id="contenedor1" style={{marginTop:'50px'}}>
            
             <div style={contenedorRosters}>
-                <h1 style={{fontFamily:"MonumentUltraBold", color:'#d39ab0', mixBlendMode: 'difference '}}>EQUIPOS</h1>
+                <h1 style={{fontFamily:"MonumentUltraBold", color:'#d39ab0'}}>EQUIPOS</h1>
                 <div>
                 <hr/>
                     <div>
                         <img src="https://i.ibb.co/wLSysvK/Recurso-3.png" alt="https://i.ibb.co/wLSysvK/Recurso-3.png" style={styleImgRoster}/>
                     </div>
-                    <div style={{textAlign:'center',  fontFamily:"MonumentRegular", mixBlendMode: 'difference', color:'#fff'}}>
+                    <div style={{textAlign:'center',  fontFamily:"MonumentRegular", color:'#fff'}}>
                         <div style={contenedorNombres}>
                             <h5 style={textoNoRosa}>JEREMIAS</h5>
                             <h5 style={textoRosa}> KEKE </h5>
@@ -87,7 +87,7 @@ const Teams = () => {
                     <div>
                         <img src="https://i.ibb.co/QJX8dJF/Recurso-2.png" alt="https://i.ibb.co/QJX8dJF/Recurso-2.png" style={styleImgRoster}/>
                     </div>
-                    <div style={{textAlign:'center',  fontFamily:"MonumentRegular", mixBlendMode: 'difference', color:'#fff'}}>
+                    <div style={{textAlign:'center',  fontFamily:"MonumentRegular", color:'#fff'}}>
                         <div style={contenedorNombres}>
                             <h5 style={textoNoRosa}style={textoNoRosa}>FACUNDO</h5>
                             <h5 style={textoRosa}> MARAN </h5>
@@ -103,12 +103,18 @@ const Teams = () => {
                             <h5 style={textoRosa}> STOUD </h5>
                             <h5 style={textoNoRosa}>LIMA</h5>
                         </div>
-                            <div style={{display:'flex',justifyContent:'center', alignItems:'center', flexDirection:'row',marginBottom:'-20px'}}>
+                            <div style={contenedorNombres}>
                                 <h5 style={textoNoRosa}>DANIEL</h5>
                                 <h5 style={textoRosa}> SCOFIELD </h5>
                                 <h5 style={textoNoRosa}>UHRICH</h5>
                             </div>
-                    </div>
+                            <div style={{display:'flex',justifyContent:'center', alignItems:'center', flexDirection:'row',marginBottom:'-20px'}}>
+                                <h5 style={textoNoRosa}>CRISTIAN</h5>
+                                <h5 style={textoRosa}> DEMP </h5>
+                                <h5 style={textoNoRosa}>HOYOS</h5>
+                            </div>
+                        </div>
+                        
                     <hr/>
                 </div>   
 
@@ -116,7 +122,7 @@ const Teams = () => {
                     <div>
                         <img src="https://i.ibb.co/s1fqMvy/Recurso-1.png" alt="https://i.ibb.co/s1fqMvy/Recurso-1.png" style={styleImgRoster}/>
                     </div>
-                    <div style={{textAlign:'center',  fontFamily:"MonumentRegular", mixBlendMode: 'difference', color:'#fff'}}>
+                    <div style={{textAlign:'center',  fontFamily:"MonumentRegular", color:'#fff'}}>
                         <div style={contenedorNombres}>
                             <h5 style={textoNoRosa}>GIOVANNI</h5>
                             <h5 style={textoRosa}> GIO </h5>
