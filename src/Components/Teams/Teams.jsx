@@ -104,14 +104,14 @@ const Teams = () => {
                             <h5 style={textoNoRosa}>LIMA</h5>
                         </div>
                             <div style={contenedorNombres}>
-                                <h5 style={textoNoRosa}>DANIEL</h5>
-                                <h5 style={textoRosa}> SCOFIELD </h5>
-                                <h5 style={textoNoRosa}>UHRICH</h5>
+                                <h5 style={textoNoRosa}> IÑAKI</h5>
+                                <h5 style={textoRosa}> IXA </h5>
+                                <h5 style={textoNoRosa}> MERELLE </h5>
                             </div>
                             <div style={{display:'flex',justifyContent:'center', alignItems:'center', flexDirection:'row',marginBottom:'-20px'}}>
-                                <h5 style={textoNoRosa}>CRISTIAN</h5>
-                                <h5 style={textoRosa}> DEMP </h5>
-                                <h5 style={textoNoRosa}>HOYOS</h5>
+                                <h5 style={textoNoRosa}> JONATAN </h5>
+                                <h5 style={textoRosa}> JONN6 </h5>
+                                <h5 style={textoNoRosa}> URQUIZA </h5>
                             </div>
                         </div>
                         
